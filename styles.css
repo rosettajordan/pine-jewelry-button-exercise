@@ -1,0 +1,64 @@
+body {
+	/* background image from https://pixabay.com/en/trees-fog-forest-forrest-mist-1209660/ */
+  	background: url(images/background-body.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+#landing-container {
+	/* Using box model to move from top of page and center */
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+.content-title {
+	/* Remove the default margins set by browser */
+	margin: 0;	
+	/* Change font to Poiret One */
+	font-family: 'Poiret One', cursive;
+	font-size: 100px;
+	text-transform: uppercase;
+	color: #353e67;
+}
+p {
+	/* Remove the default margins set by browser */
+	margin: 0;
+
+}
+a {
+	/* Change the display type of the a tag from inline to inline-block */
+	display: inline-block;
+	padding: 20px;
+	margin: 20px 10px;
+	/* Change font to PT Sans */
+	font-family: 'PT Sans', sans-serif;
+	/* Remove the underline of the text link */
+	text-decoration: none;
+	/* This is how you can add a transition so it eases into the hover color over half a second */
+	transition: ease .5s all;
+}
+a.ghost-button {
+	background: transparent;
+	border: 1px solid lightgray;
+	/* Give this button a 1px solid light gray border*/
+	color: lightgray;	
+	/* Change the text color to the same light gray as the border*/
+
+}
+a.button {
+	/* Change the background of this button to white */
+	background: white;
+	/* Give this button a 1px solid black border*/
+	border: black 1px solid;
+	/* Change the text color to black to match the border*/
+	color: black;
+}
+/* use a:hover{  } for hover state of a button in which your cursor moves over the button and the button changes */
+a:hover{
+	/* Change the hover background of this button to the same blue as the h1 */
+	background-color: #353e67;
+	/* Give this button a 1px solid white border when you hover over it*/
+	border: white 1px solid;
+	/* Change the text color to white to match the border when you hover over it*/
+	color: white;
+
+}
